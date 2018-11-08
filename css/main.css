@@ -16,8 +16,9 @@ body {
   height: 75px;
   text-align: center;
   font-family: sans-serif;
-  margin: 0 auto;
+
   padding:4px;
+
 
 }
 
@@ -28,9 +29,8 @@ h1 {
   text-align: center;
 }
 
-#row2 {
-  display: flex;
-
-  width: 100%;
+#row1, #row2, #row3 {
+    display: flex;
+    justify-content: center;
 
 }
